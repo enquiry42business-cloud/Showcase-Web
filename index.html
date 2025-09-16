@@ -5,6 +5,110 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abhishek Singh - Portfolio</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    /* Background video */
+    .video-bg {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+      filter: brightness(0.5);
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 20px; /* Increased padding */
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      z-index: 10;
+      backdrop-filter: blur(4px);
+    }
+
+    nav a {
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px; /* Increased font size */
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    /* Sections */
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 20px 20px; /* Increased top padding */
+      text-align: center;
+    }
+
+    #home h1 {
+      font-size: 80px; /* Increased font size */
+      color: red;
+    }
+
+    #home p {
+      font-size: 24px; /* Increased font size */
+      max-width: 800px; /* Increased max width */
+    }
+
+    h2 {
+      color: red;
+      font-size: 40px; /* Increased font size */
+      margin-bottom: 25px; /* Increased margin */
+    }
+
+    .services-list {
+      display: grid;
+      gap: 20px; /* Increased gap between items */
+      max-width: 800px; /* Increased max width */
+      grid-template-columns: repeat(2, 1fr); /* Added two columns for a better layout */
+    }
+
+    .services-list div {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px; /* Increased padding */
+      border-radius: 8px;
+      border: 1px solid red;
+      font-size: 18px; /* Increased font size */
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.9);
+      padding: 25px; /* Increased padding */
+      text-align: center;
+      font-size: 16px; /* Increased font size */
+    }
+  </style>
+</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Singh - Portfolio</title>
+  <style>
     * {margin:0; padding:0; box-sizing:border-box;}
     body, html {height:100%; font-family: Arial, sans-serif; color:white;}
 
