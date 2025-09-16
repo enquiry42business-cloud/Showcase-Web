@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Singh | Creative Editor</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html { height: 100%; font-family: Arial, sans-serif; }
+
+    /* Background video */
+    .bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+      filter: brightness(40%) contrast(110%);
+    }
+
+    /* Content box */
+    .content {
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ff4b4b;
+      text-shadow: 0 0 10px rgba(255,0,0,0.8);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    .section {
+      background: rgba(0,0,0,0.7);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      box-shadow: 0 0 15px rgba(255,0,0,0.4);
+    }
+
+    .section h3 {
+      color: #ff4b4b;
+      margin-bottom: 15px;
+    }
+
+    .section p, .section li {
+      color: #eee;
+      line-height: 1.6;
+    }
+
+    ul { list-style: none; }
+    ul li::before { content: "✔ "; color: #ff4b4b; }
+  </style>
+</head>
+<body>
+
+  <!-- Background video -->
+  <video autoplay muted loop class="bg-video">
+    <source src="https://cdn.pixabay.com/vimeo/452684970/fire-52818.mp4?width=640&hash=fc77a39f1e09b28ddf9ad3dafe5fbb2c3769" type="video/mp4">
+  </video>
+
+  <div class="content">
+    <h1>Abhishek Singh</h1>
+    <h2>16 y/o Creative Editor</h2>
+
+    <div class="section">
+      <h3>About Me</h3>
+      <p>I’m Abhishek Singh, a passionate editor with an interest in creative storytelling, unique edits, and trying something new every time. Editing is not just my skill, it’s my art.</p>
+    </div>
+
+    <div class="section">
+      <h3>Services</h3>
+      <ul>
+        <li>Video Editing</li>
+        <li>YouTube Videos & Shorts</li>
+        <li>Instagram Reels / Edits</li>
+        <li>Cinematic Videos</li>
+        <li>Posters & Banners</li>
+        <li>Custom Thumbnails</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Contact</h3>
+      <p>For enquiries & pricing:<br><b>enquiry42business@gmail.com</b></p>
+    </div>
+  </div>
+</body>
+</html>
